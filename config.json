@@ -14,20 +14,20 @@
   "UPTIME": 0,
   "socks5": "socks5://user:pass:ip:port",
   "socks5tl": false,
-  "ACCESSTOKEN": "EAAD6V7os0gcBOwmZAZAfSYzhg1qspaMIXlPZAbgHd0XLbuOYfdzU5cOoGLgmFSKILYNw5uaGVHs5F4LjCGLgwbZBtxAoAZCiDAVKbn4sThgeuoX8i3UZClX0RZAXg5FNZAtdP7KkhO4Ew0e4XJrHgBcciC5Ovf48C9PNDepzbodDQmkDUfZBrfdFJD44EyuvjUpAMoCEdfCS6fQZDZD",
-  "FACEBOOK_ADMIN": "https://www.facebook.com/pcoder090/",
+  "ACCESSTOKEN": "",
+  "FACEBOOK_ADMIN": "https://www.facebook.com/profile.php?id=61578017301300",
   "ZALO_ADMIN": "",
-  "ADMIN_NAME": "Nguyễn Trương Thiện Phát",
-  "BOTNAME": "PCODER",
-  "PREFIX": ".",
+  "ADMIN_NAME": "",
+  "BOTNAME": "Deep Sea Dream🌊",
+  "PREFIX": "/",
   "DEVELOPERS": [
-    "100047128875560"
+    "61578017301300"
   ],
   "ADMINBOT": [
-    "100047128875560"
+    "61578017301300"
   ],
   "NDH": [
-    "100047128875560"
+    "61578017301300"
   ],
   "DATABASE": {
     "sqlite": {

@@ -9,7 +9,7 @@ module.exports.config = {
     credits: "pcoder",
     description: "Xem danh sách lệnh đẹp, hiện đại, có ảnh!",
     commandCategory: "Người dùng",
-    usages: ".../tên lệnh/all",
+    usages: "menu/.../tên lệnh/all",
     cooldowns: 5
 };
 module.exports.languages = {
