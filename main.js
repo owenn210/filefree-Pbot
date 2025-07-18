@@ -509,10 +509,15 @@ function onBot({ models }) {
     process.exit(1);
   }
 })();
-
 process.on('unhandledRejection', (err, p) => { saveError(err, "UNHANDLED REJECTION"); })
   .on('uncaughtException', err => { saveError(err, "UNCAUGHT EXCEPTION"); });
 
 function uptime() {
   logger.loader(`Bot uptime: ${Math.floor(process.uptime())} giây`);
 }
+const autoGreet = require("./modules/autogreet");
+
+// Chạy mỗi phút
+setInterval(() => {
+  autoGreet.run(global.api);
+}, 60 * 1000); // 60s
